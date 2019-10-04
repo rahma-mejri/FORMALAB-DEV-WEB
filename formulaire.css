@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap');
+.header{
+    background: rgb(56, 56, 56);
+height: 100px;
+width: 100%;
+margin:0px;
+margin-top: -30px;
+opacity: 0.5;
+}
+.p1{
+    font-family: 'Happy Monkey', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    color: aliceblue;
+
+    
+
+}
+.back{
+    background-image: url(images/hc.jpg)  ;
+    background-repeat: no-repeat;
+    /*background-color: #fff*/
+}
+.forms{
+    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 790px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(56, 56, 56,.5);
+}
+label{
+    font-family: 'Happy Monkey', cursive;
+    font-weight: bold;
+}
+.forms input
+        {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+.forms select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.forms input[type="text"],
+.forms input[type="email"],
+.forms input[type="number"],
+.forms input[type="tel"],
+.forms input[type="date"],
+.forms input[type="select"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;}
+    .forms input[type="submit"] {
+        height: 30px;
+        color: #fff;
+        font-size: 15px;
+        background: rgb(11, 93, 126);
+        cursor: pointer;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        margin-top: 15px;
+    }

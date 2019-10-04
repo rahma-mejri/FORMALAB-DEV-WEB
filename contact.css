@@ -1,0 +1,26 @@
+.back{
+    background-color: rgba(211, 208, 208, 0.9);
+    height: 650px;
+    width: 1385px;
+    margin-top: -10px;
+    margin-left: -100px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+.box{
+    margin-top: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 470px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 5%;
+}
+.img{
+    margin-bottom:0px;
+    margin-top:0px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body class="back" >
+ <header  class="header">
+<p class="p1"> Inscrivez-vous dès maintenant et réservez vos places</p>
+    </header>
+    <div class="back">
+    </div>
+    <div class="forms">
+        <form action="inscrit.php" method="POST">
+            <label for="0" style="color: aliceblue" >Votre numéro carte d'identité:</label><br>
+            <input type="number" name="cin" id="0" min="8"placeholder="CIN">
+            <label for="1" style="color: aliceblue">Votre nom:</label> <br>
+            <input type="text" name="nom" placeholder="Nom"><br>
+            <label for="2"style="color: aliceblue">Votre prénom:</label> <br>
+            <input type="text" name="prenom"placeholder="Prénom"><br>
+            <label for="3"style="color: aliceblue">votre Email:</label><br>
+            <input type="email" name="email" id="3" placeholder="abc@xyz.tr"><br>
+            <label for="4"style="color: aliceblue">Numéro de téléphone:</label><br>
+            <input type="tel" name="num" id="4" placeholder="XX XXX XXX"><br>
+            <label for="5"style="color: aliceblue">Votre date de naissance:</label><br>
+            <input type="date" name="daten" id="5"><br>
+            <label for="6"style="color: aliceblue">À quelle randonnée voudriez-vous participer?</label><br>
+            <select name="select" id="6">
+                <option value="1">Randonnée à Ain Drahem</option>
+                <option value="2">Randonnée à Ain Dh'hab </option>
+                <option value="3">Randonnée à Tabarka</option>
+            </select>
+            <br>
+            <input type="submit" value="Participer">
+           
+        </form>
+    
+    </div>
+
+
+ 
+</body>
+</html>
